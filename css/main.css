@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Bebas Neue', sans-serif;
+}
+body {
+	background: url("../img/arkaplan.png");
+	
+	min-height: 100vh;
+}
+.navigation {
+	overflow: hidden;
+	position: fixed;
+	width: 80px;
+	height: 100%;
+	background: #fff;
+	transition: 0.5s;
+}
+.navigation:hover {
+	width: 300px;
+}
+.navigation ul  {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+.navigation ul li {
+	position: relative;
+	width: 100%;
+	list-style: none;
+}
+.navigation ul li a {
+	position: relative;
+	display: block;
+	width: 100%;
+	display: flex;
+	text-decoration: none;
+	color: black;
+}
+.navigation ul li a .icon {
+	position: relative;
+	display: block;
+	min-width: 80px;
+	height: 80px;
+	line-height: 80px;
+	text-align: center;
+}
+.navigation ul li a .icon .fas {
+	font-size: 24px;
+}
+.navigation ul li a .icon .fab {
+	font-size: 24px;
+}
+.navigation ul li a .title {
+	position: relative;
+	display: block;
+	padding: 0 10px;
+	height: 80px;
+	line-height: 80px;
+	text-align: center;
+}
+.ips {
+	border-radius: 20px;
+	margin: 10px 20px;
+	float:right;
+	background-color: #ff8400;
+	height: 100px;
+	width: 300px;
+}
+
+
+
+
+
+/*
+*{
+	box-sizing: border-box;
+	font-family: 'Bebas Neue', cursive;
+	list-style: none;
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body {
+	font-size: 18px;
+	font-weight: 300;
+    color: white;
+	overflow-x: hidden;
+    min-height: 100vh;
+    height: 100%;
+    position: relative;
+    background: url("../img/arkaplan.png");
+}
+*/
